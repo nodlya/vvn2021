@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    background-color: rgba(255, 248, 211, 1);
+
+    font-family: "days";
+
+
+}
+
+main
+{
+	height: 500px;
+	background-image: url("3e80dfb3322097cf0a62f320c98d8426.jpg");
+	background-repeat: repeat-x;
+}
+@font-face {
+	font-family: "days";
+	src: url("days.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "robotoslab";
+	src: url("robotoslabregular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "rubikmono";
+	src: url("RubikMonoOne.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+.square
+{
+	background: rgba(10, 25, 78, 0.62);
+	width: 300px;
+	padding: 15%;
+	display: block;
+	float: left;
+	font-family: robotoslab;
+	color:rgba(255, 248, 211, 1);
+}
+
+.choice
+{
+	padding-top: 45%;
+	padding-down: 45%;
+	padding-left: 75%;
+}
+
+.footer
+{
+	font-family: "robotoslab";
+}
+
