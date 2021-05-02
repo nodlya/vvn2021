@@ -1,58 +1,68 @@
-body
-{
-    margin: 0;
-    background-color: rgba(255, 248, 211, 1);
-
-    font-family: "days";
-
-
-}
-
 main
 {
 	height: 500px;
 	background-image: url("3e80dfb3322097cf0a62f320c98d8426.jpg");
 	background-repeat: repeat-x;
-}
-@font-face {
-	font-family: "days";
-	src: url("days.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "robotoslab";
-	src: url("robotoslabregular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "rubikmono";
-	src: url("RubikMonoOne.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
+	position: relative;
 }
 
 .square
 {
-	background: rgba(10, 25, 78, 0.62);
-	width: 300px;
-	padding: 15%;
+	background: var(--transparentRectangle);
+	box-sizing: border-box;
+	width: 50%;
+	heignt: 100%;
 	display: block;
 	float: left;
+	color:var(--smallTextColor);
+}
+.square p
+{
 	font-family: robotoslab;
-	color:rgba(255, 248, 211, 1);
+	padding: 20% 10%;
 }
 
 .choice
 {
-	padding-top: 45%;
-	padding-down: 45%;
-	padding-left: 75%;
+	position: relative;
+	margin-left: 25vw;
+	padding: 10% 35% 10%;
 }
+
+#button1
+{
+	font-family: rubikmono;
+	font-size: 24px;
+	color: var(--smallTextColor);
+	background-color: var(--bigTextandButtons);
+	border-radius: 20px;
+	width: 496px;
+	height: 114px;
+	margin-bottom: 10px;
+}
+
+#button2
+{
+	font-family: rubikmono;
+	font-size: 14px;
+	color: white;
+	background-color: var(--smallButtons);
+	border-radius: 20px;
+	width: 385px;
+	height: 74px;
+	margin-left: 55px;
+
+}
+
+
+
 
 .footer
 {
 	font-family: "robotoslab";
+	color: var(--bigTextandButtons);
+	margin-left: 10px;
+	margin-top: 26px;
 }
+
 
