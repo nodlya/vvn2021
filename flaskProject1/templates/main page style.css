@@ -45,7 +45,7 @@ main
 {
 	font-family: rubikmono;
 	font-size: 14px;
-	color: white;
+	color: var(--extraTextColor);
 	background-color: var(--smallButtons);
 	border-radius: 20px;
 	width: 385px;

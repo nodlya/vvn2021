@@ -20,14 +20,14 @@
 body
 {
     margin: 0;
-    background-color: rgba(255, 248, 211, 1);
+    background-color: var(--smallTextColor);
     font-family: "days";
 }
 
 header
 {
 	font-family: days;
-	color: rgba(10, 25, 78, 1);
+	color: var(--bigTextandButtons);
 	font-size: 20px;
 	margin-left: 17vw;
 	margin-right: 10px;
