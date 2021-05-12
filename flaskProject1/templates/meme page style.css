@@ -1,5 +1,5 @@
 main {
-	margin-top: 0px;
+	margin-top: 0;
     height: 73vh;
     background-image: url("3e80dfb3322097cf0a62f320c98d8426.jpg");
     background-repeat: repeat-x;
@@ -17,28 +17,28 @@ main {
 {
     /*margin: 1vh 7vw 1 vh 57vw;
     margin-top: 10vh;*/
-
+	margin-top: -40px;
     margin-left: 57vw;
     margin-right: 1vh;
     background: var(--transparentRectangle);
 	box-sizing: border-box;
 	width: 30vw;
-	heignt: 100%;
+	heignt: 30vw;
 	display: block;
 
 	color:var(--smallTextColor);
 }
 
-.header
+.name
 {
     padding: 10px;
     font-size: 30px;
-    font-family: "days;
+    font-family: days;
 }
 
 .maintext
 {
-    font-family: "robotoslab";
+    font-family: robotoslab;
     padding:10px;
     font-size:20px;
 }
