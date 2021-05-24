@@ -1,0 +1,75 @@
+main {
+	margin-top: 0;
+    height: 73vh;
+    background-image: url("3e80dfb3322097cf0a62f320c98d8426.jpg");
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+.meme
+{
+    margin-top: 1vh;
+    margin-left: 7vw;
+    float: left;
+}
+
+.square
+{
+    /*margin: 1vh 7vw 1 vh 57vw;
+    margin-top: 10vh;*/
+	margin-top: -40px;
+    margin-left: 57vw;
+    margin-right: 1vh;
+    background: var(--transparentRectangle);
+	box-sizing: border-box;
+	width: 30vw;
+	heignt: 30vw;
+	display: block;
+
+	color:var(--smallTextColor);
+}
+
+.name
+{
+    padding: 10px;
+    font-size: 30px;
+    font-family: days;
+}
+
+.maintext
+{
+    font-family: robotoslab;
+    padding:10px;
+    font-size:20px;
+}
+.choice
+{
+	position: relative;
+	margin-left: 23vw;
+	padding: 1% 25% 15% 33%;
+}
+
+#button1
+{
+	font-family: rubikmono;
+	font-size: 24px;
+	color: var(--smallTextColor);
+	background-color: var(--bigTextandButtons);
+	border-radius: 20px;
+	width: 496px;
+	height: 114px;
+	margin-bottom: 10px;
+}
+
+#button2
+{
+	font-family: rubikmono;
+	font-size: 14px;
+	color: var(--extraTextColor);
+	background-color: var(--smallButtons);
+	border-radius: 20px;
+	width: 385px;
+	height: 74px;
+	margin-left: 55px;
+
+}
