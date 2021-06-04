@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\igorb\memecalendar\venv"
+VIRTUAL_ENV="C:\Users\igorb\source\repos\DnDBot\vvn2021\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

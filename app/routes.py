@@ -8,4 +8,4 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('main page.html')
+    return render_template('main_page.html')
