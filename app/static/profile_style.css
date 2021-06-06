@@ -1,0 +1,180 @@
+main
+{
+	height: 500px;
+	background-image: url("3e80dfb3322097cf0a62f320c98d8426.jpg");
+
+	background-repeat: repeat-x;
+	position: relative;
+}
+
+.square
+{
+	background: var(--transparentRectangle);
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	color:var(--smallTextColor);
+}
+.square .text
+{
+    font-size:25px;
+	margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    transform: translate(-30%, -30%)
+}
+.square .fieldset {
+    position: relative;
+    margin: 1.4em 0;
+}
+#qwe {
+  transform:scale(1.5);
+  opacity:0.9;
+  cursor:pointer;
+  }
+.wrap{
+    font-size:20px;
+    list-style-position: inside;
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari and Chrome */
+    column-count: 2;
+    list-style-type: decimal;
+    position: absolute;
+    height: 150px;
+    top: 40%;
+    left: 35%;
+}
+.wrap li {
+    padding: 15px 0 0 0;
+}
+.name
+{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-30%, -30%)
+}
+
+.footer
+{
+	font-family: robotoslab;
+	color: var(--bigTextandButtons);
+	margin-left: 10px;
+	margin-top: 26px;
+}
+
+
+
+.form label{
+            display:block;
+            clear:both;
+            width:650px;
+            line-height:30px;
+            margin-top:20px;
+        }
+        .form label input[type=text], .form label input[type=password]{
+            height:30px;
+            padding:3px;
+            margin:3px;
+	        border: 1px solid #5983FF;
+	        border-radius: 0 !important;
+	        background-color: #DADADA;
+	        box-shadow: inset 0 0 3px rgba(77,77,77,.35);
+	    }
+	    .form .form_right{
+	        display:inline-block;
+	        margin:0;
+	        padding:0;
+	        float:right;
+	        width:400px;
+	    }
+        .form #button_save1{
+	        display:inline-block;
+	        padding:0;
+            position: absolute;
+            top: 22%;
+            left: 55%;
+	        float:right;
+            font-family: rubikmono;
+            font-size: 15px;
+            color: var(--smallTextColor);
+            background-color: var(--bigTextandButtons);
+            border-radius: 20px;
+            width: 150px;
+            height: 35px;
+            margin-bottom: 10px;
+	    }
+
+
+
+        .form input[type=radio]{
+            display:none;
+        }
+        .form .radiolabel{
+            text-align:center;
+            display:inline-block;
+            width:100px;
+            height:20px;
+            padding:2px;
+            margin:2px;
+	        border: 1px solid #5983FF;
+	        border-radius: 0 !important;
+	        background-color: #F4F8FF;
+	        box-shadow: inset 0 0 3px rgba(77,77,77,.35);
+	        line-height:20px;
+        }
+        .form input[type=radio]:hover + label{
+          	background: rgba(89,131,255,.15);
+        }
+        .form input[type=radio]:checked + label{
+        	background: #5983FF;
+        	color: #fff;
+        }
+        .form .hwinp{
+            width:250px;
+        }
+        .form span.form_error{
+            line-height:15px;
+            color:#bb3300;
+            display:block;
+        }
+        .form input.form_error {
+            border: 1px solid #bb3300 !important;
+        }
+        #button_save2{
+	        display:inline-block;
+	        padding:0;
+            position: absolute;
+            top: 80%;
+            left: 55%;
+	        float:right;
+            font-family: rubikmono;
+            font-size: 15px;
+            color: var(--smallTextColor);
+            background-color: var(--bigTextandButtons);
+            border-radius: 20px;
+            width: 150px;
+            height: 35px;
+            margin-bottom: 10px;
+	    }
+        #button_otminet{
+	        display:inline-block;
+	        padding:0;
+            position: absolute;
+            top: 80%;
+            left: 35%;
+	        float:right;
+            font-family: rubikmono;
+            font-size: 15px;
+            color: var(--smallTextColor);
+            background-color: var(--smallButtons);
+            border-radius: 20px;
+            width: 150px;
+            height: 35px;
+            margin-bottom: 10px;
+	    }
